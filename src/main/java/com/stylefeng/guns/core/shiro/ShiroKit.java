@@ -294,4 +294,8 @@ public class ShiroKit {
         return false;
     }
 
+    public static void main(String[] args) {
+        System.out.println(ShiroKit.md5("123456", "8pgby"));
+    }
+
 }
